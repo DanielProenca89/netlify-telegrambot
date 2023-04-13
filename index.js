@@ -1,9 +1,8 @@
+/* eslint linebreak-style: ["error", "windows"]*/
 const TelegramBot = require('node-telegram-bot-api');
-
 const token = 'COLOQUE_AQUI_SEU_TOKEN';
-
-const bot = new TelegramBot(token, { polling: true });
-
+const bot = new TelegramBot(token, {polling: true});
 bot.on('message', (msg) => {
   bot.sendMessage(msg.chat.id, 'Olá! Obrigado por entrar em contato!');
+// eslint-disable-next-line eol-last
 });
