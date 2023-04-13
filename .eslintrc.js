@@ -1,8 +1,8 @@
 module.exports = {
     "env": {
-        "browser": true,
+        "browser": false,
         "commonjs": true,
-        "es2021": true
+        "es2021": false
     },
     "overrides": [
     ],
